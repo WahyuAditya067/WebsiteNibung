@@ -277,17 +277,8 @@ footer {
         flex-direction: row;
     }
     
-    .task-images {
-        grid-template-columns: 1fr;
-    }
-    
-    .task-image img {
-    width: 100%;
-    height: auto;                      /* ✅ UBAH dari 200px jadi auto */
-    max-height: none;                  /* ✅ TAMBAHKAN ini - hapus batas tinggi */
-    object-fit: contain;               /* ✅ UBAH dari cover jadi contain */
-    display: block;
-    transition: transform 0.3s ease;
-    cursor: pointer;
+    /* Hapus bagian task-images dan task-image img dari sini */
+    /* Karena sudah diatur di atas dengan flex */
 }
+
 }
